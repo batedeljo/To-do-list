@@ -1,14 +1,12 @@
 import React from "react";
-import ToDoListContainer from "./Components/ToDoListContainer/ToDoListContainer";
+import ToDoList from "./components/ToDoList";
 
 const App = () => {
-    return ( 
-        <div>
-            <div>Tuka treba da ima slika</div>
-            <div>Crna pozadina</div>
-            <ToDoListContainer/>
-        </div>
-     );
-}
- 
+  return (
+    <div className="todo-app">
+      <ToDoList />
+    </div>
+  );
+};
+
 export default App;
